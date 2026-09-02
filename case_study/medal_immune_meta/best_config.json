@@ -1,0 +1,27 @@
+{
+  "best_config": {
+    "hidden_dims": [
+      512,
+      512,
+      512
+    ],
+    "lambda_d": 100,
+    "lr": 0.0001,
+    "activation": "SELU",
+    "use_batchnorm": false,
+    "dropout_rate": 0.0,
+    "bottleneck_activation": null,
+    "final_activation": null,
+    "batch_size": 256,
+    "max_epochs": 10000,
+    "warmup": 0,
+    "eta_min": 1e-07,
+    "adamw_weight_decay": 1e-05,
+    "t_factor": 0.95,
+    "t_patience": 20
+  },
+  "best_metrics": {},
+  "note": "Temporarily hardcoded from teacher_sweep_melanoma run; replace with robust arch search result once complete.",
+  "metric": "val_recon_loss",
+  "mode": "min"
+}

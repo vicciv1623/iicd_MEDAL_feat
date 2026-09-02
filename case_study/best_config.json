@@ -1,0 +1,29 @@
+{
+  "best_config": {
+    "hidden_dims": [
+      768,
+      768
+    ],
+    "lambda_d": 10,
+    "lr": 3e-05,
+    "activation": "SELU",
+    "use_batchnorm": false,
+    "dropout_rate": 0.0,
+    "bottleneck_activation": null,
+    "final_activation": null,
+    "batch_size": 1024,
+    "max_epochs": 10000
+  },
+  "best_metrics": {
+    "capacity_index": 1.0,
+    "lambda_d": 10.0,
+    "lr": 3e-05,
+    "pass_frac": 1.0,
+    "mean_distill": 7.878503784013446e-06,
+    "mean_val_recon": 0.3223164986978976,
+    "std_val_recon": 0.00023178596695646306
+  },
+  "teacher_emb_path": "/share/ctn/users/bnc2119/MEDAL/output/robust_arch_search_melanoma/embeddings/arch_search_teacher.npy",
+  "metric": "val_recon_loss",
+  "mode": "min"
+}
